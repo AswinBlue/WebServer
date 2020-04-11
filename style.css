@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+@media only screen and (max-width:800px) {
+            /* For tablets */
+}
+@media only screen and (max-width:500px) {
+            /* For mobile phones */
+}
+
+div.fullWidth{
+    width:100%;
+    height:100%;
+}
+
+body {
+    width:100%;
+    height:100%;
+    background-color:#111;
+}
+
+#body-main{
+    position:static;
+    height:100%;
+    width:60%;
+    margin:auto;
+}
+#title{
+    margin:auto;
+    width:80%;
+    border:3px solid #000000;
+    padding:10px;
+    text-align:center;
+    background-color:#FFF;
+}
+
+#navigation {
+    width: 100%;
+    height:30px;
+}
+
+#navigation ul {
+    height:100%;
+    display: flex;
+    margin: auto;
+    padding: unset;
+    border-left: 1px solid cyan;
+}
+
+#navigation li {
+    list-style: none;
+    background-color: #2d2d2d;
+    float: left;
+    height:90%;
+    text-align: center;
+    border-right: 1px solid #ddd;
+    width: 20%;
+    line-height: 30px;
+    vertical-align: center;
+}
+
+#navigation .nav-item {
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "Trebuchet MS", Dotum, Arial;
+    display:block;
+}
+
+#navigation .nav-item:hover { 
+    color: cyan;
+    background-color: #4d4d4d;
+}
+
+#navigation:after {
+    clear:both;
+    display:block;
+    content:'';
+}
+
+#contents{
+    border:1px solid #000000;
+    background-color:#FFF;
+    height:fit-content;
+    width:100%;
+}
+
+#contents:after{
+    clear:both;
+    display:block;
+    content:'';
+}
+
+#main{
+    width:77.5%;
+    height:auto;
+    float:right;
+    background-color:#FFF;
+    padding: 0.2%;
+}
+
+#main-inner{
+    background-color:#FFF;
+    height:100%;
+}
+
+#sidebar{
+    height:100%;
+    border:1px solid #000000;
+    background-color:#FFF;
+    width:20%;
+    float:left;
+    padding: 0.2%;
+}
+
+#sidebar-head{
+    border:3px solid #000000;
+    background-color:white;
+    height:30%;
+}
+
+#sidebar-body{
+    border:3px solid #000000;
+    background-color:#777;
+    line-height:30px;
+    height:70%;
+}
+
+#sidebar-body .sidebar-item{
+    color:#FFF;
+    background-color:#000;
+}
+
+footer {
+    width:100%;
+    background-color:#222;
+}
+
